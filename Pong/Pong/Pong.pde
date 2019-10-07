@@ -40,6 +40,7 @@ void draw () {
     speed -= 8/speed + 2 * speed;
   }
   
+  //Player 1
   if (keyPressed) {
     if (key == 'W' || key == 'w') {
       paddle1Y = paddle1Y - paddleSpeed;
